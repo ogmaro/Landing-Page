@@ -1,0 +1,299 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: black;
+  /* min-height: 100% */
+}
+
+h1 {
+  font-size: 350%;
+
+}
+
+h2 {
+
+  margin-top: 2%;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+hr {
+  width: 20%;
+  margin: 0;
+  /*remember to adjust this to be inline with the page*/
+}
+
+p {
+  line-height: 2;
+}
+
+.logo {
+  color: hsl(270, 9%, 17%);
+  font-size: 120%;
+  float: left;
+}
+
+.container {
+  /* width: auto; */
+  overflow: hidden;
+  margin: 0 150px 0 150px;
+}
+
+header {
+  background-color: white;
+  color: hsl(270, 9%, 17%);
+  /* min-height: 60px; */
+  /* padding: 20px 0 0 0; */
+}
+
+header ul {
+  padding: 0;
+  margin: 0;
+}
+
+header li {
+  float: left;
+  padding: 0 20px 0 20px;
+  display: inline;
+  margin: 10px;
+}
+
+header li a {
+  color: hsl(216, 30%, 68%);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+  margin-right: auto;
+}
+
+header a:hover {
+  color: hsl(270, 9%, 17%);
+  font-weight: bolder;
+  font-size: 105%;
+}
+
+/* these are all the bobttons features */
+
+.button {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 3px 19px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.myButton {
+  background-color: transparent;
+  border: 3px solid hsl(270, 9%, 17%);
+  color: hsl(270, 9%, 17%);
+}
+
+.myButton:hover {
+  background-color: hsl(270, 9%, 17%);
+  color: white;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+  color: white;
+  background-color: hsl(270, 9%, 17%)
+}
+
+.myButton1 {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  margin-left: 0;
+}
+
+.myButton1:hover {
+  background-color: white;
+  color: hsl(270, 9%, 17%);
+}
+
+.myButton2 {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  position: relative;
+  left: 1200px;
+  bottom: 290px;
+  z-index: 1;
+}
+
+.myButton2:hover {
+  background-color: white;
+  color: hsl(270, 9%, 17%);
+}
+
+#banner-section {
+  min-height: 600px;
+  margin: 0;
+}
+
+
+.myImage {
+  margin: 0;
+  float: right;
+  position: absolute;
+  bottom: 150px;
+  right: 150px;
+}
+
+.patternIMG {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  z-index: 1;
+}
+
+#banner-section {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  margin-top: auto;
+}
+
+#next-section {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(270, 9%, 17%);
+  margin-top: 150px;
+  margin-right: 0;
+}
+.card-IMG{
+  position: absolute;
+  top: 500px;
+}
+.flex-column{
+  display: flex;
+}
+.card-h3{
+  color: hsl(256, 26%, 20%);
+}
+.card{
+    color: hsl(216, 30%, 68%);
+    background-color: hsl(0, 0%, 98%);
+    font-size: 140%;
+    padding-right: 70px;
+}
+
+/* @media screen and (max-width: 600px; ) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+ @media (max-height:600px){
+  footer { position: static;}
+  header { padding-top: 40px;}
+} */
+#next-section .container hr{
+      margin-top: 100px;
+}
+
+#next-section .container h2 {
+  font-weight: bold;
+  font-size: 300%;
+  margin-top: 50px;
+  color: hsl(256, 26%, 20%);
+}
+
+/***** bottom Section ********/
+#bottom-section {
+  background-color: hsl(256, 26%, 20%);
+  margin: 150px;
+  height: 250px;
+}
+
+.bottom-h3 {
+  font-size: 300%;
+  color: white;
+  width: 100%;
+}
+
+.bottomPattern-IMG {
+  position: relative;
+  top: -195px;
+  left: 845px;
+}
+/****** Footer Section ******/
+
+footer{
+  height: 200px;
+  background-color: hsl(0, 0%, 98%);
+  position: relative;
+}
+footer img{
+  position: absolute;
+}
+footer h1{
+  margin: 0 150px 0 150px;
+}
+  footer .container{
+    height: 200px;
+      display: flex;
+  }
+  footer .footer-flex{
+    flex: 1;
+    z-index: 1;
+    height: 150px;
+  }
+  footer .footer-flex a{
+    text-decoration: none;
+  }
+footer .attribution{
+  background: hsl(216, 30%, 68%);
+  color: black;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+footer .container .footer-flex ul{
+  padding: 0;
+  list-style-type: none;
+}
+footer .container .footer-flex ul li{
+  color: hsl(256, 26%, 20%);
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+footer hr{
+  width: 84%;
+  margin-left: 150px;
+}
+footer .social-icons .left h1{
+  font-size: 25px;
+}
+footer .container  .footer-flex h3{
+  color: hsl(216, 30%, 68%);
+}
+/* my icons are not showing... why? they seem to be stacked up together
+after i added the bottom patter  by setting the foorter position to
+relative and the bottom pattern to absolut*/
+.social-icons{
+  display: flex;
+}
+
+.move{
+  margin-left: 1225px;
+}
+.move-1{
+    margin-left: 35px;
+}
+.move-2{
+  margin-left: 35px;
+}
+.move-3{
+  margin-left: 35px;
+}
